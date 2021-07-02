@@ -1,0 +1,183 @@
+
+
+body{
+    background: rgb(110, 110, 110);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#CEECF5;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color:#0A122A;
+   
+}
+
+p{
+    margin-top: 30px;
+    opacity: 0.7;
+    margin-top: 50px ;
+}
+
+h3{
+    text-align: center;
+     background-color:#BDBDBD;
+}
+
+.slideContainer{
+    width: 50%;
+    margin-top:100px;
+    grid-row-gap:10px;
+
+}
+
+
+
+.motor1::after{
+    content: '180';
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top: 40%;
+}
+
+.motor1::before{
+    content: '0';
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top:40%;
+}
+
+
+.motor2::after{
+    content: '180';
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top:87%;
+}
+
+.motor2::before{
+    content: '0';
+   color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 87%;
+}
+
+
+.motor3::after{
+    content: '180';
+   color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top:135%;
+}
+
+.motor3::before{
+    content: '0';
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 135%;
+}
+
+.motor4::after{
+    content: '180';
+   color: black;;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top:182%;
+}
+
+.motor4::before{
+    content: '0';
+  color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 182%;
+}
+
+
+.motor5::after{
+    content: '180';
+   color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top:230%;
+}
+
+.motor5::before{
+    content: '0';
+ color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 230%;
+}
+
+
+.motor6::after{
+    content: '180';
+ color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 73%;
+    top:277%;
+}
+
+.motor6::before{
+    content: '0';
+ color: black;
+    font-size: 2rem;
+    position: absolute;
+    left: 25%;
+    top: 277%;
+}
+
+
+
+
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 20px;
+    background: rgb(117, 252, 117);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition:  0.2s;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px black;
+    background-color:#A4A4A4;
+
+}
+
+.slider :hover{
+    opacity: 1;
+
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    background:#610B21;
+    cursor: pointer;
+  }
+
+
+
